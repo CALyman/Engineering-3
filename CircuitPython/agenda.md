@@ -2,9 +2,8 @@
 
 To do:
 
-- comment code [status - working on it]
+- comment code [status - done]
 
-- that's pretty much it but the to-do list looks
-  a bit weird if there's only one thing to do
+- organize files into folders/subfolders [status - done]
 
-- there we go
+- create README for the entire repo [status - done]
