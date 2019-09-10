@@ -10,6 +10,7 @@ The CircuitPython code in this repository is run on a fancy little thing called.
 > ![Picture of the Metro M0 Express.](https://cdn-shop.adafruit.com/970x728/3505-06.jpg "The Metro M0 Express")
 > 
 > [Source](https://cvilleschools.instructure.com/courses/26602/assignments/173747?module_item_id=480883)
+
 The Metro M0 Express is specifically designed for CircuitPython - a version of Python. You could say it's pretty neat, if you felt so inclined.
 
 Here's a brief rundown of each file:
