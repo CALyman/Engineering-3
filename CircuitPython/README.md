@@ -18,7 +18,7 @@ Here's a brief rundown of each file:
 ### [fade.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fade.py)
 
 [fade.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/fade.py) is a very basic file with the purpose of making an LED fade On and Off.
-That's pretty much it. The code is not too complicated - only difficult bit was understanding how the PWMOut object operated - after that it's basic Python loops if statements
+That's pretty much it. The code is not too complicated; the only difficult bit was understanding how the PWMOut object operated. After that it's basic Python loops if statements
 
 ### [lcd_assignment.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/lcd_assignment.py)
 
@@ -37,6 +37,14 @@ has just become my style of code.
 
 A fun just-for-kicks assignment where you can change the neopixel color with three potentiometers for r, g, and b values.
 
- 
+### [sensor.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/sensor.py)
+
+[sensor.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/sensor.py) was a super fun assignment (there's no sarcastic font but just use your imagination).
+The assignment was to have a sensor read the distance between itself and the closest object, changing the
+neopixel color along a spectrum as the sensor distance gets higher. The sensor wasn't too complicated to code, and looking 
+at the HCSR04 library told me how to use it. The red, green, and blue color spectrum had me scratching my head for a little while, but in the end
+I found a clean(ish) solution.
+
+
 
 
