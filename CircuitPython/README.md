@@ -45,6 +45,39 @@ neopixel color along a spectrum as the sensor distance gets higher. The sensor w
 at the HCSR04 library told me how to use it. The red, green, and blue color spectrum had me scratching my head for a little while, but in the end
 I found a clean(ish) solution.
 
+    if dist <=15:
+        r = 255-(17*dist)
+        b = 0+(17*dist)
+        g = 0
+    
+    elif dist > 15:
+        b = 255-(17*(dist-15))
+        g = 0+(17*(dist-15))
+        r = 0
+
+Essentially "mapping" the values gotten from the sensor to possible r, g, and b values neatly accomplished the objective.
+
+### [servo_touch.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/servo_touch.py)
+
+[servo_touch.py](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/servo_touch.py) is the code for an assignment where touching
+one wire moves the servo in one direction while touching the other wire moves the servo in the opposing direction. I spiced up the assignment
+a small amount by changing the neopixel color depending on what color the servo was turning. The only strange part about the assignment
+was learning about how TouchIn objects functioned, but it was smooth sailing after that.
+
+##Other Files
+
+There are just a few other files in the CircuitPython folder. Here is the brief overview of what each one does:
+
+###[README.md](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/README.md)
+
+The [README.md](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/README.md) is what you're reading right now. It
+gives an overview of all the files in this folder and what their purpose is.
+
+###[agenda.md](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/agenda.md)
+
+The [agenda.md](https://github.com/clyman88/Engineering-3/blob/master/CircuitPython/agenda.md) is currently a list of what needs to be done
+in the CircuitPython folder. Formatting is in progress to be more easy to use and make it more perdy.
 
 
+![That's all folks!](https://cdn10.bigcommerce.com/s-btntxk/products/115/images/506/0002002301.2_IMG_1792_3__56379.1444757924.1280.1280.JPG?c=2 "That's all folks!")
 
